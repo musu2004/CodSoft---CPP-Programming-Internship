@@ -10,7 +10,9 @@ int main() {
     int a, b, sum, div, mult, sub;
     char op;
 
-    cout << "Enter two numbers: ";
+    cout << "\n Simple Calculator :- \n";
+
+    cout << "\nEnter two numbers: ";
     cin >> a >> b;
 
     cout << "Enter operator (+, -, *, /): ";
@@ -19,23 +21,27 @@ int main() {
     switch(op) {
         case '+': 
             sum = a + b;
-            cout << "Sum: " << sum;
+            cout << "Sum: " << sum << "\n";
             break;
         case '-': 
             sub = a - b;
-            cout << "Subtraction: " << sub;
+            cout << "Subtraction: " << sub << "\n";
             break;
         case '/': 
-            div = a / b;
-            cout << "Division: " << div;
+            if (a == 0){
+                cout << "Error: Division by zero is not allowed." << "\n";
+            } else {
+                cout << "Division: " << a / b << "\n";
+            }
             break;
         case '*': 
             mult = a * b;
-            cout << "Multiplication: " << mult;
+            cout << "Multiplication: " << mult << "\n";
             break;
         default: 
-            cout << "Enter a valid operator!";
+            cout << "Enter a valid operator!" << "\n";
     }
+    cout << "\n Thank You \n" ;
 
     return 0;
 }
