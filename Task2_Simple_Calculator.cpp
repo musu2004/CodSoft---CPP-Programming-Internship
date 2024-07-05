@@ -41,7 +41,7 @@ int main() {
         default: 
             cout << "Enter a valid operator!" << "\n";
     }
-    cout << "\n Thank You \n" ;
+    cout << "Thank You\n\n" ;
 
     return 0;
 }
