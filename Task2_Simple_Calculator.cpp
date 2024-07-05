@@ -10,7 +10,7 @@ int main() {
     int a, b, sum, div, mult, sub;
     char op;
 
-    cout << "\n Simple Calculator :- \n";
+    cout << "\n Simple Calculator - \n";
 
     cout << "\nEnter two numbers: ";
     cin >> a >> b;
