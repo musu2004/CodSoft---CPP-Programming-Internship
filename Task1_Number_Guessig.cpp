@@ -1,6 +1,6 @@
 // CodSoft Internship
 // Domain Name - C++ Programming
-// Task - 2 (Simple Calculator)
+// Task - 2 (Number Guessing)
 // Intern Name - Muskan Shaw
 
 #include <iostream>
