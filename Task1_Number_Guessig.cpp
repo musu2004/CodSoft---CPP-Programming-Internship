@@ -1,3 +1,8 @@
+// CodSoft Internship
+// Domain Name - C++ Programming
+// Task - 2 (Simple Calculator)
+// Intern Name - Muskan Shaw
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
